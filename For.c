@@ -11,7 +11,7 @@ int main()
     int n1, n2, i;
     for (i= 1; i<= 2; i++) 
       {
-        printf("Ingrese un numero %d: ", i);
+        printf("Ingrese el número (%d) entero: ", i);
         scanf("%d", &n2);
         if (i == 1) 
           {
