@@ -12,18 +12,18 @@ int main()
     for (i= 1; i<= 2; i++) 
       {
         printf("Ingrese un numero %d: ", i);
-        scanf("%d", &n1);
+        scanf("%d", &n2);
         if (i == 1) 
           {
-            n2=n1;
+            n1=n2;
           } 
         else 
           {
-            if (n1>n2)
-                printf("El segundo número (%d) es mayor que el primero (%d)\n", n1, n2);
+            if (n2>n1)
+                printf("El segundo número (%d) es mayor que el primero (%d)\n", n2, n1);
             else 
-                if (n1<n2)
-                  printf("El primer número (%d) es mayor que el segundo (%d)\n", n2, n1);
+                if (n2<n1)
+                  printf("El primer número (%d) es mayor que el segundo (%d)\n", n1, n2);
                 else
                   printf("Ambos números son iguales (%d)\n", n1);
           }
