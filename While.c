@@ -24,6 +24,5 @@ int main()
           printf("%d ", Pares[i]);
           i++;
         }
-      printf("\n");
       return 0;
   }
